@@ -1,0 +1,38 @@
+@media (max-height: 999px){ 
+    p {
+    font-size: 20px;
+      }
+  }
+/*this flexbox was taken and edited from https://forum.freecodecamp.org/t/help-with-12-email-is-submitted-to-a-static-page/245333/3 at 20/08/2021 */
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 17px;
+  list-style-type: none;
+text-align: center;
+  padding: 1px;
+  background-color: #808080;
+}
+
+
+#company-logo {
+position: absolute; bottom: 290px; right: 1000px;
+width: 20px;
+height: 20px;
+/*this mix snippet was taken from stackoverflow https://stackoverflow.com/questions/12662759/make-white-background-of-image-transparent-in-css at 20/8/2021*/
+mix-blend-mode: multiply;
+}
+
+#nav-bar {
+position: fixed; left: 1400px; bottom: 245px;
+}
+
+
+
+
+
+#form {
+position: absolute; right: 150px; top: 20px; bottom: 2000px;
+}
+
